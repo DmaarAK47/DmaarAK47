@@ -231,11 +231,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // Download CV button
     const downloadCVBtn = document.querySelector('.download-resume');
     if (downloadCVBtn) {
-        downloadCVBtn.addEventListener('click', (e) => {
-            e.preventDefault();
-            // In a real implementation, this would link to your actual CV file
-            alert('CV download functionality would be implemented here!');
-        });
+        // Remove the event listener or comment out the code block
+        // Let the default link behavior handle the download
     }
 
     // Add extra styling to modal content
